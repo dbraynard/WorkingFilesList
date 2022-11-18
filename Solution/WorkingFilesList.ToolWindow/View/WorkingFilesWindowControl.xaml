@@ -310,7 +310,7 @@
                                           Gesture="RightClick">
                             </MouseBinding>
 
-                            <MouseBinding Command="{Binding ToolWindowCommands.ToggleIsPinned, Source={StaticResource ViewModel}}"
+                            <MouseBinding Command="{Binding ToolWindowCommands.ActivateWindow, Source={StaticResource ViewModel}}"
                                           CommandParameter="{Binding}"
                                           Gesture="LeftDoubleClick">
                             </MouseBinding>
